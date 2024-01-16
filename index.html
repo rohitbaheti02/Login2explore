@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Enrollment Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="enrollmentForm">
+        <label for="rollNo">Roll No:</label>
+        <input type="text" id="rollNo" disabled>
+
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName">
+
+        <label for="class">Class:</label>
+        <input type="text" id="class">
+
+        <label for="birthDate">Birth Date:</label>
+        <input type="text" id="birthDate">
+
+        <label for="address">Address:</label>
+        <input type="text" id="address">
+
+        <label for="enrollmentDate">Enrollment Date:</label>
+        <input type="text" id="enrollmentDate">
+
+        <button type="button" onclick="saveData()">Save</button>
+        <button type="button" onclick="updateData()">Update</button>
+        <button type="button" onclick="resetForm()">Reset</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
